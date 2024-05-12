@@ -1,0 +1,107 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    align-items: center;
+    padding: 0 150px;
+    width: auto;
+    height: 80px;
+}
+
+header .nav-block ul li {
+    font-size: 21px;
+}
+
+header .nav-block ul {
+    display: flex;
+    column-gap: 40px;
+    min-height: 80px;
+    align-items: center;
+}
+
+header .nav-block ul .dark-theme-block {
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-block ul .dark-slider {
+    transition: .6s ease;
+    background-color: gray;
+}
+
+header .nav-block ul .light-slider {
+    transition: .6s ease;
+    background-color: rgb(87, 87, 252);
+}
+
+header .nav-block ul .dark-theme-block .light-theme-btn {
+    width: 42px;
+    height: 42px;
+    background-color: #333;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease;
+    transform: translateX(-1px);
+}
+
+header .nav-block ul .dark-theme-block .night-theme-btn {
+    width: 42px;
+    height: 42px;
+    background-color: #333;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease;
+    transform: translateX(42px);
+}
+
+header .nav-block ul .dark-theme-block > div .theme-icon {
+    cursor: pointer;
+}
+
+header .logo-block span .logo-portfolio-word {
+    margin-left: 10px;
+    font-weight: 300;
+    color: rgb(210, 210, 210);
+}
+
+header .logo-block span .logo-react-word {
+    font-weight: 700;
+}
+
+header .logo-block {
+    font-size: 28px;
+}
+
+header .nav-block ul .header-btn {
+    cursor: pointer;
+}
+
+header .nav-block ul .header-btn:hover {
+    transition: .1s ease;
+    opacity: 0.6;
+}
+
+header .nav-block ul li .language-block {
+    width: 70px;
+    background-color: rgb(15, 15, 15);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #00ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+header .nav-block ul li .language-bloc .lang-icon {
+    position: relative;
+}

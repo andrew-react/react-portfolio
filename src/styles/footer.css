@@ -1,0 +1,23 @@
+footer {
+    background-color: rgb(25, 25, 25);
+    padding: 40px 150px;
+    text-align: center;
+    align-items: center;
+    width: auto;
+}
+
+footer .icons-block {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+footer .icons-block .icon:hover {
+    transform: scale(1.2);
+}
+
+footer .copyright-block {
+    color: white;
+    padding: 25px 0 0;
+}
+

@@ -1,0 +1,116 @@
+@media (max-width: 2560px) {
+
+    .contacts-section .contacts-block ul .title {
+        font-size: 38px;
+    }
+
+    .contacts-section .contacts-block ul .info {
+        font-size: 28px;
+    }
+
+    .contacts-section .contacts-title-block {
+        padding: 50px 150px 80px;
+    }
+
+    .contacts-section {
+        height: 79vh;
+    }
+
+    .contacts-section .contacts-block {
+        height: 600px;
+    }
+}
+
+@media (max-width: 2559px) {
+    .contacts-section .contacts-block ul .title {
+        font-size: 24px;
+    }
+
+    .contacts-section .contacts-block ul .info {
+        font-size: 18px;
+    }
+
+    .contacts-section .contacts-title-block {
+        padding: 50px 150px 100px;
+    }
+
+    .contacts-section {
+        min-height: 667px;
+    }
+
+    .contacts-section .contacts-block {
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+    }
+
+    header .nav-block ul {
+        flex-wrap: wrap;
+        min-height: 100px;
+        margin: 10px 0 10px;
+        justify-content: center;
+    }
+
+    header .nav-block {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 425px) {
+    header .nav-block ul .adaptive {
+        margin-left: 0;
+    }
+
+    header .nav-block ul {
+        justify-content: center;
+    }
+
+    header .nav-block {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    header {
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    header .logo-block {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    section .promo-about-block {
+        padding: 150px 50px 150px;
+    }
+
+    section .skills-block {
+        padding: 150px 50px 150px;
+    }
+
+    footer {
+        padding: 40px 50px;
+    }
+
+    .projects-section .projects-block {
+        padding: 0 50px 150px;
+    }
+}
+
+@media (max-width: 375px) {
+    header {
+        padding: 20px 20px 0;
+    }
+}

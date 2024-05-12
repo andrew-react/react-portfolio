@@ -1,0 +1,80 @@
+.project-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-block > div {
+    width: 50%;
+    height: auto;
+    background-color: #222222;
+    color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+}
+
+.project-block > div .info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.project-block > div .info .project-link {
+    color: rgb(230, 230, 230);
+}
+
+.project-block > div .info .project-link:hover {
+    color: gray;
+    transition: .4s ease;
+}
+
+.project-block > div .arrow {
+    position: absolute;
+    right: 0;
+    padding: 15px 15px 0 0;
+}
+
+.project-block > div .arrow .cross {
+    cursor: pointer;
+    color: red;
+}
+
+.project-block > div .arrow .cross:hover {
+    transform: scale(1.15);
+    transition: .1s ease;
+}
+
+.project-block > div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.project-block > div span {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(0, 255, 170);
+}
+
+.project-block > div p {
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(255, 230, 91);
+}
+
+.project-block > div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
